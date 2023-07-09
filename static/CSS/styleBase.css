@@ -1,0 +1,194 @@
+header {
+    background-color: black ;
+    height: 7rem;
+    position:sticky;
+}
+
+#logo {
+    width: 25%;
+    height: 110%;
+    margin-left: 37%;
+    margin-top: 0.5rem;
+}
+
+#background {
+    /*background-repeat:no-repeat ;*/
+    background-size: 100%;
+}
+
+
+#welcome {
+    position: static;
+    word-wrap: break-word;
+    overflow: auto;
+    border-style: double;
+    display: inline-block ;
+
+    height: 40% ;
+    width: 40% ;
+    background-color: rgb(228, 143, 40);
+    margin-top: 3.5% ;
+    margin-left:12%;
+
+    color: rgb(17, 13, 0);
+    border-width: 1.2rem;
+    text-align:center ;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-transform: capitalize;
+
+}
+
+nav {
+    float: left;
+    margin-top: 5%;
+    overflow: auto; 
+    height: 10rem;
+    width: 11rem;
+    background-color:rgb(224, 214, 214);
+    display: table;
+    position: sticky;
+    top:5%;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 5px;
+    border-bottom: 20px solid rgb(54, 51, 51);
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
+
+}
+
+footer {
+    background-color: black;
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    height: auto;
+    width: auto;
+    margin-top:5%;
+}
+
+/*
+#footback{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+}*/
+
+#nom_site {
+    position: relative;
+    padding-left:0px;
+    padding-top: 0px;
+    color: rgb(148, 97, 97);
+    font-size: small;
+    font-size-adjust:none;
+    font-family: 'Segoe UI', sans-serif ;
+}
+
+#logopiedpage { 
+    margin-top: 5%;
+    width: 10%;
+    left: 12.30%;
+}
+
+#BDW1logo {
+    height: 12%;
+    width: 5%;
+    left:35%;
+    bottom:7%;
+}
+
+#UNIVlogo {
+    height: 12%;
+    width: 7%;
+    left:41%;
+    bottom:7%;
+}
+
+#remerciment {
+    position:absolute;
+    color:white;
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    left:69%;
+    bottom:5%
+}
+#PIXLRlogo {
+    position: absolute;
+    height: 11%;
+    width: 6%;
+    left: 48.5%;
+    bottom:2%;
+}
+
+
+
+
+/*
+#footback{
+    position: static;
+    height:100%;
+    width: 100%;
+     margin-top: 10%;
+}
+#logopiedpage { 
+    position: fixed;
+    width: 10%;
+    bottom: 14%;
+    left: 12.30%;
+}
+
+#nom_site {
+    position: fixed;
+    left: 0.3%;
+    bottom: 0%;
+
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-size-adjust:none;
+    font-family: 'Segoe UI', sans-serif ;
+    left: 0.3%;
+    bottom: 0%;
+}
+
+#BDW1logo {
+    position:fixed;
+    height: 12%;
+    width: 5%;
+    left:35%;
+    bottom:7%;
+}
+
+
+#UNIVlogo {
+    position: fixed;
+    height: 12%;
+    width: 7%;
+    left:41%;
+    bottom:7%;
+}
+
+
+#PIXLRlogo {
+    position: fixed;
+    height: 11%;
+    width: 6%;
+    left: 48.5%;
+    bottom:7%;
+}
+
+#remerciment {
+    position: fixed;
+    color:white;
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    bottom:4%;
+    left:69%
+} */
